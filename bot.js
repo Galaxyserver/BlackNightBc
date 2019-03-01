@@ -1,10 +1,10 @@
 const Discord = require('discord.js'); 
 const client = new Discord.Client({disableEveryone: true});
-const prefix = 'B'
+const prefix = 'R'
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-	client.user.setGame(`~ Black Night Server,`,'https://www.twitch.tv/v5bz');
+	client.user.setGame(`~ Rollet community,`,'https://www.twitch.tv/v5bz');
 });
 
 client.on("message", message => {
